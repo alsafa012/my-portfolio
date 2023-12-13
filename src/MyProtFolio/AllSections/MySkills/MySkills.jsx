@@ -1,11 +1,11 @@
 import React from 'react';
 
-const BannerSection = () => {
+const MySkills = () => {
      return (
           <div>
-               banner
+               MySkills
           </div>
      );
 };
 
-export default BannerSection;
+export default MySkills;
