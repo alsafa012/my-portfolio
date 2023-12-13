@@ -5,8 +5,8 @@ const MyExperience = () => {
      return (
           <div>
                <Container>
-                    <h1 className="my-8 text-3xl font-bold text-center w-[80%] md:w-[20%] mx-auto border-b-4 p-2">
-                         My Experience
+                    <h1 className="my-8 text-3xl font-bold text-center w-[80%] md:w-[30%] mx-auto border-b-4 p-2">
+                         My Work Experience
                     </h1>
                     <div className="md:flex justify-evenly gap-5">
                          <div className="shadow-2xl p-5 rounded-lg mb-8 md:mb-0">
