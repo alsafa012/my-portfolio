@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { useDarkMode } from "../DarkMode/useDarkMode";
 
-import { TbSunHigh } from "react-icons/tb";
-import { MdDarkMode } from "react-icons/md";
+// import { TbSunHigh } from "react-icons/tb";
+// import { MdDarkMode } from "react-icons/md";
 import Container from "../Container/Container";
 
 const Navbar = () => {
@@ -17,35 +17,35 @@ const Navbar = () => {
                               isPending
                                    ? "pending"
                                    : isActive
-                                   ? "text-[#ff6900] underline"
+                                   ? "text-white"
                                    : ""
                          }
                     >
                          Home
                     </NavLink>
                </li>
-               <li>
+               {/* <li>
                     <NavLink
-                         to="/addProduct"
-                         className={({ isActive, isPending }) =>
-                              isPending
-                                   ? "pending"
-                                   : isActive
-                                   ? "text-[#ff6900] underline"
-                                   : ""
-                         }
+                         // to="/addProduct"
+                         // className={({ isActive, isPending }) =>
+                         //      isPending
+                         //           ? "pending"
+                         //           : isActive
+                         //           ? "text-white"
+                         //           : ""
+                         // }
                     >
                          Add Product
                     </NavLink>
-               </li>
+               </li> */}
                <li>
                     <NavLink
-                         to="/contact"
+                         to="/"
                          className={({ isActive, isPending }) =>
                               isPending
                                    ? "pending"
                                    : isActive
-                                   ? "text-[#ff6900] underline"
+                                   ? "text-white"
                                    : ""
                          }
                     >
@@ -54,12 +54,12 @@ const Navbar = () => {
                </li>
                <li>
                     <NavLink
-                         to="/about"
+                         to="/"
                          className={({ isActive, isPending }) =>
                               isPending
                                    ? "pending"
                                    : isActive
-                                   ? "text-[#ff6900] underline"
+                                   ? "text-white"
                                    : ""
                          }
                     >
@@ -72,7 +72,8 @@ const Navbar = () => {
           <div>
                <div>
                     <Container>
-                         <div className=" navbar bg-base-100 bg-gradient-to-r from-blue-900 to-blue-900">
+                         <div className=" navbar bg-blue-600">
+                         {/* <div className=" navbar bg-base-100 bg-gradient-to-r from-blue-900 to-blue-900"> */}
                               <div className="navbar-start">
                                    <div className="dropdown">
                                         <label
@@ -96,7 +97,7 @@ const Navbar = () => {
                                         </label>
                                         <ul
                                              tabIndex={0}
-                                             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 "
+                                             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
                                         >
                                              {navLists}
                                         </ul>
@@ -108,7 +109,7 @@ const Navbar = () => {
                                    />
 
                                    <p className="btn btn-ghost text-xl md:text-2xl text-white font-extrabold italic">
-                                        RJ Tech
+                                        Portfolio
                                    </p>
                               </div>
                               <div className="navbar-center hidden lg:flex">

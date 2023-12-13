@@ -6,20 +6,18 @@ import BannerSection from "../../AllSections/BannerSection/BannerSection";
 import Footer from "../../Components/Footer/Footer";
 import MySkills from "../../AllSections/MySkills/MySkills";
 import MyExperience from "../../AllSections/MyExperience/MyExperience";
+import MyProjects from "../../AllSections/MyProjects/MyProjects";
 const HomePage = () => {
      return (
           <div>
                <WebsiteTitle title={"Home Page"}></WebsiteTitle>
                <Navbar></Navbar>
                <BannerSection></BannerSection>
-               <MyExperience></MyExperience>
                <MySkills></MySkills>
+               <MyExperience></MyExperience>
+               <MyProjects></MyProjects>
                <AboutMyself></AboutMyself>
                <ContactPage></ContactPage>
-
-               <div>
-                    <h1 className="text-2xl dark:text-5xl"> hello world</h1>
-               </div>
                <Footer></Footer>
           </div>
      );

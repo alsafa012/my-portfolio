@@ -14,7 +14,7 @@ const ContactPage = () => {
                               {/* <h1 className="w-[300px] mx-auto mb-5 text-center text-2xl border-b-4 border-[#fcb900] md:text-4xl lg:text-5xl font-bold  mt-8 md:mt-16"> */}
                               Contact With Me
                          </h1>
-                         <div className="flex flex-wrap gap-10 justify-center mt-10 mb-5">
+                         <div className="grid grid-cols-1 md:grid-cols-4 gap-2 mt-10 mb-5 border p-5">
                               <div className="space-y-4 shadow-xl rounded-lg p-5">
                                    <div className="flex justify-center text-5xl">
                                         <p>
@@ -41,9 +41,7 @@ const ContactPage = () => {
                                         Phone & E-mail
                                    </h2>
                                    <div className="font-light text-lg">
-                                        <p className="">
-                                             Phone:018456....9
-                                        </p>
+                                        <p className="">Phone:018456....9</p>
                                         <p>Fax: 1-800-69-45</p>
                                         <p>
                                              <a
@@ -86,10 +84,12 @@ const ContactPage = () => {
                                         <p>FULL Day, 8 am – 5 pm</p>
                                    </div>
                               </div> */}
+                              <div className="md:col-span-2">
+                                   <SendEmail></SendEmail>
+                              </div>
                          </div>
                          {/* <Footer></Footer> */}
                     </div>
-                    <SendEmail></SendEmail>
                </Container>
           </div>
      );

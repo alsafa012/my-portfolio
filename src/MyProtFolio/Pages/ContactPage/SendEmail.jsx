@@ -2,7 +2,8 @@
 const SendEmail = () => {
      return (
           <div className="">
-               <form className="space-y-2 text-start border w-[40%] mx-auto p-2 shadow-xl rounded-xl">
+               <form className="space-y-2 text-start border mx-auto p-2 shadow-xl rounded-xl">
+               {/* <form className="space-y-2 text-start border w-[40%] mx-auto p-2 shadow-xl rounded-xl"> */}
                     <div className="text-center mx-auto md:w-[55%]">
                          <h1 className="text-2xl font-bold border-b-4 py-3">
                               Contact with via email
@@ -31,7 +32,7 @@ const SendEmail = () => {
                               placeholder="Enter Your Message..."
                          ></textarea>
                     </div>
-                    <input className="btn" type="submit" value="Send Message" />
+                    <input className="btn bg-blue-600 text-white border-none" type="submit" value="Send Message" />
                </form>
           </div>
      );

@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../../Components/Container/Container";
 
 const AboutMyself = () => {
@@ -8,7 +7,7 @@ const AboutMyself = () => {
                     <h1 className="my-8 text-3xl font-bold text-center w-[80%] md:w-[30%] mx-auto border-b-4 p-2">
                          Education
                     </h1>
-                    <div className="flex gap-2">
+                    <div className="md:flex gap-2">
                          {/* 1st */}
                          <div className="flex-1 border space-y-1 p-5">
                               <h1 className="text-2xl font-bold">
