@@ -9,8 +9,13 @@ import MyExperience from "../../AllSections/MyExperience/MyExperience";
 import MyProjects from "../../AllSections/MyProjects/MyProjects";
 const HomePage = () => {
      return (
-          <div>
-               <WebsiteTitle title={"Home Page"}></WebsiteTitle>
+          // text color - #858792
+          // font family {"Cormorant Garamond",serif}
+          // p  tag text-[#858792] {descriptions}
+          // <div className="dark:bg-[#A2A2A2]">
+          // <div className="dark:bg-[#878592]">
+          <div className="dark:bg-[#252734]">
+               <WebsiteTitle title={"Portfolio"}></WebsiteTitle>
                <Navbar></Navbar>
                <BannerSection></BannerSection>
                <MySkills></MySkills>

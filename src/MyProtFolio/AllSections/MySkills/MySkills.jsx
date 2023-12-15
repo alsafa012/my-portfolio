@@ -7,13 +7,26 @@ import mongodb from "../../../assets/mongodb-logo-gznyaiAt.png";
 import node from "../../../assets/nodejs-logo-S0pmkYaS.png";
 import express from "../../../assets/express-js-logo-X5bzKZPk.png";
 import Container from "../../Components/Container/Container";
+
 // import react from "../../../assets/"
+
+// import { Swiper, SwiperSlide } from "swiper/react";
+
+// // Import Swiper styles
+// import "swiper/css";
+// import "swiper/css/effect-cube";
+// import "swiper/css/pagination";
+
+// // import './styles.css';
+
+// // import required modules
+// import { EffectCube, Pagination } from "swiper/modules";
 
 const MySkills = () => {
      return (
           <Container>
-               <div>
-                    <h1 className="my-8 text-3xl font-bold text-center w-[80%] md:w-[30%] mx-auto border-b-4 p-2">
+               <div className="">
+                    <h1 className="text-[#858792] my-8 text-3xl font-bold text-center w-[80%] md:w-[30%] mx-auto border-b-4 p-2">
                          Skills That I Know
                     </h1>
                     <div className="w-[70%] mx-auto">
@@ -77,6 +90,35 @@ const MySkills = () => {
                          </div>
                     </div>
                </div>
+               {/* <Swiper
+                    effect={"cube"}
+                    grabCursor={true}
+                    cubeEffect={{
+                         shadow: true,
+                         slideShadows: true,
+                         shadowOffset: 20,
+                         shadowScale: 0.94,
+                    }}
+                    pagination={true}
+                    modules={[EffectCube, Pagination]}
+                    className="mySwiper"
+               >
+                    <SwiperSlide>
+                         <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                         <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                         <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                         <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                         <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    </SwiperSlide>
+               </Swiper> */}
           </Container>
      );
 };

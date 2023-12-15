@@ -9,14 +9,14 @@ const BannerSection = () => {
                     <div className="flex flex-col-reverse md:flex-row items-center">
                          <div className="flex-1">
                               <div className="w-[80%] mx-auto space-y-2">
-                                   <h1 className="text-2xl font-bold">
+                                   <h1 className="text-2xl font-bold text-[#858792]">
                                         Hi, I,m
                                    </h1>
                                    <h2 className="text-3xl font-bold">
-                                        Al-Safa Ridoy{" "}
+                                        Al-Safa Ridoy
                                    </h2>
                                    <i className="text-blue-600">
-                                        *A Frontend Developer*
+                                        *A Frontend Web Developer*
                                    </i>
                                    <p className="text-lg font-medium">
                                         Shot what able cold new see
@@ -27,8 +27,9 @@ const BannerSection = () => {
                                    <div className="flex gap-2">
                                         {/* <button className="btn bg-[#252734]"> */}
                                         <a href={resume} download>
+                                        {/* <a href="../../../assets/ridoyLabReport.pdf" download> */}
                                              <button className="btn bg-blue-600 text-white border-none">
-                                                  Downlode CV
+                                                  Download CV
                                              </button>
                                         </a>
                                         <button className="btn">Contact</button>

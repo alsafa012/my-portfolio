@@ -7,7 +7,7 @@ import SendEmail from "./SendEmail";
 
 const ContactPage = () => {
      return (
-          <div>
+          <div className="" id="contact-id">
                <Container>
                     <div>
                          <h1 className="my-8 text-3xl font-bold text-center w-[80%] md:w-[30%] mx-auto border-b-4 p-2">

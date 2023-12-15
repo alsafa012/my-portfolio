@@ -41,6 +41,7 @@ const Navbar = () => {
                <li>
                     <NavLink
                          to="/"
+                         // href="#contact-id"
                          className={({ isActive, isPending }) =>
                               isPending
                                    ? "pending"
@@ -49,11 +50,16 @@ const Navbar = () => {
                                    : ""
                          }
                     >
+                         {/* <a href="#contact-id">contact</a> */}
                          Contact Us
                     </NavLink>
                </li>
-               <li>
+               {/* <li>
+                    <a href="#contact-id">contact</a>
+               </li> */}
+               {/* <li>
                     <NavLink
+                    id="#contact-id"
                          to="/"
                          className={({ isActive, isPending }) =>
                               isPending
@@ -65,7 +71,7 @@ const Navbar = () => {
                     >
                          About us
                     </NavLink>
-               </li>
+               </li> */}
           </>
      );
      return (
@@ -73,7 +79,7 @@ const Navbar = () => {
                <div>
                     <Container>
                          <div className=" navbar bg-blue-600">
-                         {/* <div className=" navbar bg-base-100 bg-gradient-to-r from-blue-900 to-blue-900"> */}
+                              {/* <div className=" navbar bg-base-100 bg-gradient-to-r from-blue-900 to-blue-900"> */}
                               <div className="navbar-start">
                                    <div className="dropdown">
                                         <label
